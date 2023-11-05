@@ -1,0 +1,3 @@
+// JS
+
+alert('Hello world')
