@@ -34,3 +34,33 @@ function myOtherFunction() {
 console.log(
   myOtherFunction()() // 8
 )
+
+// 4.
+
+function overridingVariables() {
+  let variable = 1
+
+  {
+    let variable = 2
+    console.log(variable) // 2
+  }
+
+  console.log(variable) // 1
+}
+
+overridingVariables()
+
+// 5.
+
+function breakingScopeWithVar() {
+  var variable = 1
+
+  {
+    var variable = 2
+    console.log(variable) // 2
+  }
+
+  console.log(variable) // 2
+}
+
+breakingScopeWithVar()
