@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synth App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="synth">
+        <div class="synth-selector">
+          <label>
+            Waveform:
+            <select name="synth">
+              <option value="sine">Sine</option>
+              <option value="sawtooth">Sawtooth</option>
+              <option value="square">Square</option>
+              <option value="triangle">Triangle</option>
+            </select>
+          </label>
+        </div>
+        <div class="piano-keys">
+          <div class="key" id="c4"><span>Dó</span><span>C4</span></div>
+          <div class="key" id="d4"><span>Ré</span><span>D4</span></div>
+          <div class="key" id="e4"><span>Mi</span><span>E4</span></div>
+          <div class="key" id="f4"><span>Fá</span><span>F4</span></div>
+          <div class="key" id="g4"><span>Sol</span><span>G4</span></div>
+          <div class="key" id="a4"><span>Lá</span><span>A4</span></div>
+          <div class="key" id="b4"><span>Si</span><span>B4</span></div>
+          <div class="key" id="c5"><span>Dó</span><span>C5</span></div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
