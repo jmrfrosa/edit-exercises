@@ -5,4 +5,8 @@ Vamos treinar algumas manipulações habituais em strings. Como este exercício 
 3. Após pedir os dois nomes, a aplicação deve mostrar um alerta em que é possível ver os dois nomes juntos. A primeira letra de cada nome deve ser sempre maiúscula, independentemente do input do utilizador.
 4. O resto do nome deverá aparecer sempre com letra minúscula.
 
-Exemplo: se o utilizador inserir os nomes “jOão” e “roSA”, o alerta deverá mostrar “João Rosa”
+>Exemplo: se o utilizador inserir os nomes “jOão” e “roSA”, o alerta deverá mostrar “João Rosa”
+
+### Useful links:
+- https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
