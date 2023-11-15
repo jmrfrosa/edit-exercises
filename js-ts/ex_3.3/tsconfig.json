@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "ES6",
+    "moduleResolution": "NodeNext",
+    "sourceMap": false,
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+  },
+  "include": [
+    "*"
+  ],
+}
