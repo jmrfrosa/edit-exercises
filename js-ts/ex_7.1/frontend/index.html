@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deliveries</title>
+  </head>
+  <body>
+    <h1>My Deliveries</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Status</th>
+          <th>Products</th>
+          <th>Price</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+      <tfoot>
+        <tr>
+          <td id="table-totals"></td>
+          <td colspan="2"></td>
+          <td id="price-totals"></td>
+          <td>
+            <select id="currency-selector" name="currency">
+              <option value="EUR">€ - Euro</option>
+              <option value="USD">$ - Dollar</option>
+              <option value="GBP">£ - Pound</option>
+            </select>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="order-form">
+      <h2>Add an order</h2>
+      <form name="create-order">
+        <div>
+          <select type="select" name="order-currency">
+            <option value="EUR">€ - Euro</option>
+            <option value="USD">$ - Dollar</option>
+            <option value="GBP">£ - Pound</option>
+          </select>
+        </div>
+        <div>
+          <div id="products-to-add"></div>
+          <button id="add-product-btn" type="button">Add Product</button>
+        </div>
+        <button type="submit">Create Order</button>
+      </form>
+    </div>
+    <script type="module" src="/src/app.ts"></script>
+  </body>
+</html>

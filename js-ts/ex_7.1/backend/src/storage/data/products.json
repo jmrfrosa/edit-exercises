@@ -1,0 +1,37 @@
+[
+  {
+    "name": "T-Shirt",
+    "price": 10.99,
+    "currency": "EUR"
+  },
+  {
+    "name": "Polo",
+    "price": 15.99,
+    "currency": "EUR"
+  },
+  {
+    "name": "Camisa",
+    "price": 21.3,
+    "currency": "EUR"
+  },
+  {
+    "name": "Saia",
+    "price": 3.99,
+    "currency": "EUR"
+  },
+  {
+    "name": "Sweatshirt",
+    "price": 29.99,
+    "currency": "EUR"
+  },
+  {
+    "name": "Top",
+    "price": 5.45,
+    "currency": "EUR"
+  },
+  {
+    "name": "Vestido",
+    "price": 16.55,
+    "currency": "EUR"
+  }
+]
