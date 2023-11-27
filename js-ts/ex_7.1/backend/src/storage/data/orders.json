@@ -5,12 +5,10 @@
     "products": [
       {
         "name": "T-Shirt",
-        "price": 10.99,
         "quantity": 2
       },
       {
         "name": "Polo",
-        "price": 15.99,
         "quantity": 1
       }
     ],
@@ -22,7 +20,6 @@
     "products": [
       {
         "name": "T-Shirt",
-        "price": 10.99,
         "quantity": 1
       }
     ],
@@ -34,12 +31,10 @@
     "products": [
       {
         "name": "Polo",
-        "price": 15.99,
         "quantity": 3
       },
       {
         "name": "Polo",
-        "price": 15.99,
         "quantity": 1
       }
     ],
@@ -56,7 +51,6 @@
       },
       {
         "name": "Saia",
-        "price": 3.99,
         "quantity": 5
       }
     ],
@@ -68,7 +62,6 @@
     "products": [
       {
         "name": "Saia",
-        "price": 3.99,
         "quantity": 6
       }
     ],
@@ -80,12 +73,10 @@
     "products": [
       {
         "name": "Sweatshirt",
-        "price": 29.99,
         "quantity": 2
       },
       {
         "name": "Vestido",
-        "price": 16.55,
         "quantity": 1
       }
     ],
@@ -97,12 +88,10 @@
     "products": [
       {
         "name": "Camisa",
-        "price": 21.35,
         "quantity": 1
       },
       {
         "name": "Saia",
-        "price": 3.99,
         "quantity": 3
       }
     ],
@@ -114,12 +103,10 @@
     "products": [
       {
         "name": "Vestido",
-        "price": 16.55,
         "quantity": 4
       },
       {
         "name": "Top",
-        "price": 5.45,
         "quantity": 1
       }
     ],
@@ -131,12 +118,10 @@
     "products": [
       {
         "name": "T-Shirt",
-        "price": 10.99,
         "quantity": 2
       },
       {
         "name": "Polo",
-        "price": 15.99,
         "quantity": 1
       }
     ],
@@ -148,12 +133,10 @@
     "products": [
       {
         "name": "T-Shirt",
-        "price": 10.99,
         "quantity": 1
       },
       {
         "name": "Polo",
-        "price": 15.99,
         "quantity": 1
       }
     ],
