@@ -14,6 +14,10 @@ export class OrdersService {
     return this.storage.findOrders()
   }
 
+  getOrder(orderId: string) {
+    return this.storage.findOrder(orderId)
+  }
+
   createOrder(body: CreateOrderRequest) {
     const newOrder = this.generateOrder(body)
 
@@ -29,5 +33,9 @@ export class OrdersService {
       status: initialStatus,
       ...body,
     }
+  }
+
+  deleteOrder(orderId: string) {
+    return this.storage.deleteOrder(orderId)
   }
 }
