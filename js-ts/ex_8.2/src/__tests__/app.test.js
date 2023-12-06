@@ -25,8 +25,8 @@ describe('fetchData', () => {
       global.fetch = jest.fn(() => Promise.reject(new Error('Failed to fetch')))
     })
 
-    it('throws error', async () => {
-      await expect(async () => await fetchData()).rejects.toThrow()
+    it('throws error', () => {
+      expect(() => fetchData()).rejects.toThrow()
     })
   })
 })
