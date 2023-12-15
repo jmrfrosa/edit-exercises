@@ -1,8 +1,12 @@
 // 1.
 
-const areNumbersSame = (a: number, b: number): boolean => {
+type SameNumbersFn = (a: number, b: number) => boolean
+
+const areNumbersSame: SameNumbersFn = (a, b) => {
   return a === b
 }
+
+console.log(areNumbersSame(1, 1))
 
 // 2.
 
