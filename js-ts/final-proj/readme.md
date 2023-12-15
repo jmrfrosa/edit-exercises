@@ -1,4 +1,4 @@
-Blog - Trabalho Final
+# Blog - Exercício Final
 
 Vamos construír um blog com várias funcionalidades implementadas através de Javascript.
 A nossa aplicação vai receber uma lista de posts com comentários associados, bem como uma lista de utilizadores: ambas através de um endpoint remoto. Estes posts seguem o formato do seguinte exemplo:
@@ -54,4 +54,15 @@ A aplicação deve ser implementada com recurso a HTML, CSS e Typescript, sem re
   - No rodapé do comentário, deve estar a data do comentário, no formato `dia/mês - horas:minutos`
 - Por fim, por baixo da feed de posts, deve estar uma caixa de texto e um botão de submissão. Ao submeter o texto, um novo post deve ser criado e acrescentado à nossa feed\*.
 
-* Nota: o post deve ser apenas acrescentado à feed localmente, não é necessário fazer um fetch de modo a enviá-lo para o servidor.
+* Nota: o post deve ser apenas acrescentado à feed localmente, não é necessário fazer um fetch de modo a enviá-lo para o servidor
+
+# Recomendações
+
+- É recomendado que desenvolvam o exercício com recurso a branches do Git, servindo cada branch para implementar uma nova funcionalidade
+- De forma a juntar os branches ao vosso `master`, devem criar Pull Requests. Não é obrigatório, mas podem pedir aos vossos colegas que façam code review antes de fazer merge do código.
+- Apesar de não ser obrigatório, é recomendado que utilizem ferramentes como o Vite, o Rollup ou o Parcel para iniciar a pasta do vosso trabalho com as configurações certas.
+
+# Entrega final
+
+- As aulas de 3 e 5 de Janeiro servirão para tirar dúvidas acerca do exercício, bem como trabalhar em aula.
+- O exercício deve ser entregue após a aula de dia 5, através do link para um repositório Git.
