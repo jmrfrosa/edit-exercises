@@ -3,39 +3,59 @@
 ## Descrição
 
 Vamos construír um blog com várias funcionalidades implementadas através de Javascript.
-A nossa aplicação vai receber uma lista de posts com comentários associados, bem como uma lista de utilizadores: ambas através de um endpoint remoto. Estes posts seguem o formato do seguinte exemplo:
+A nossa aplicação vai receber uma lista de posts com comentários associados, bem como uma lista de utilizadores: ambas através de um endpoint remoto.
 
-## Utilizador
+Os endpoints para receber os dados são os seguintes:
 
-```javascript
-{
-  id: 14254,
-  name: "João",
-  picture: "https://placehold.co/400?text=J"
-}
+```bash
+# Utilizadores:
+GET https://jmrfrosa.github.io/edit-jsts-dec2023.github.io/data/users.json
+
+# Posts:
+GET https://jmrfrosa.github.io/edit-jsts-dec2023.github.io/data/posts.json
 ```
 
-## Post
+Os dados seguem o formato dos seguintes exemplos:
 
-```javascript
-{
-  title: "Diário de Férias",
-  body: "Este verão estive de férias no Algarve e diverti-me imenso. Visitámos a praia e o campo.",
-  createdAt: "2023-12-15T21:13:11.905Z",
-  likes: [14254, 24356, 46577],
-  comments: [
-    {
-      userId: 14254,
-      body: "Bom contéudo lol",
-      createdAt: "2023-12-15T21:13:11.905Z",
-    },
-    {
-      userId: 24356,
-      body: "Para a próxima tens de ir às dunas",
-      createdAt: "2023-12-15T21:13:11.905Z",
-    }
-  ]
-}
+### Utilizadores
+
+<!-- prettier-ignore -->
+```js
+[
+  {
+    id: 14254,
+    name: 'João',
+    picture: 'https://placehold.co/400?text=J',
+  },
+  // ...
+]
+```
+
+### Posts
+
+<!-- prettier-ignore -->
+```js
+[
+  {
+    title: 'Diário de Férias',
+    body: 'Este verão estive de férias no Algarve e diverti-me imenso. Visitámos a praia e o campo.',
+    createdAt: '2023-12-15T21:13:11.905Z',
+    likes: [14254, 24356, 46577],
+    comments: [
+      {
+        userId: 14254,
+        body: 'Bom contéudo lol',
+        createdAt: '2023-12-15T21:13:11.905Z',
+      },
+      {
+        userId: 24356,
+        body: 'Para a próxima tens de ir às dunas',
+        createdAt: '2023-12-15T21:13:11.905Z',
+      },
+    ],
+  },
+  // ...
+]
 ```
 
 A aplicação deve ser implementada com recurso a HTML, CSS e Typescript, sem recurso a bibliotecas externas de frontend. É permitido, no entanto, (e recomendado) o uso de bibliotecas de desenvolvimento como o Vite ou equivalentes.
