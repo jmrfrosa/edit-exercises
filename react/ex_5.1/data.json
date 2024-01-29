@@ -1,0 +1,23 @@
+[
+  {
+    "id": "6cb32d29-415e-431e-bbcb-5486a7d65665",
+    "name": "Julieta Antunes",
+    "picture": "https://avatars.githubusercontent.com/u/33245227",
+    "bio": "Nómada digital, gosto de escalar montanhas de bits e mergulhar em oceanos de código.",
+    "isAdmin": false
+  },
+  {
+    "id": "18759f8d-fd20-409c-96b7-e0e94b27d1a4",
+    "name": "Daniel Barros",
+    "picture": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/183.jpg",
+    "bio": "Tradicionalista puro, sigam-me para dicas de dieta mediterrânea",
+    "isAdmin": false
+  },
+  {
+    "id": "f7275490-4ed2-422d-a186-af04381b34f0",
+    "name": "Roberto Coelho",
+    "picture": "https://avatars.githubusercontent.com/u/46840667",
+    "bio": "🍿 Sempre pronto para mais drama",
+    "isAdmin": false
+  }
+]
