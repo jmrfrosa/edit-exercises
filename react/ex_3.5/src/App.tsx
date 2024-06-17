@@ -1,10 +1,10 @@
-import { TemperatureCalculator } from './TemperatureCalculator'
+import { Gallery } from './Gallery'
 
 export const App = () => {
   return (
     <>
-      <h1>Conversor de Temperaturas</h1>
-      <TemperatureCalculator />
+      <h1>Galeria de imagens</h1>
+      <Gallery />
     </>
   )
 }
