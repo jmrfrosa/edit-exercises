@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common'
+import { Injectable, NotFoundException } from '@nestjs/common'
 import { OrderResponse } from './response/order.response'
 import { customAlphabet as nanoIdGenerator } from 'nanoid'
 import { CreateOrderRequest } from './request/orders.request'
@@ -21,17 +21,27 @@ export class OrdersService {
   createOrder(body: CreateOrderRequest) {
     const newOrder = this.generateOrder(body)
 
-    this.storage.createOrder(newOrder)
+    return this.storage.createOrder(newOrder)
   }
 
   private generateOrder(body: CreateOrderRequest): OrderResponse {
     const id = `A${this.idGenerator(3)}`
     const initialStatus = 'draft'
 
+    const products = body.products.map((p) => {
+      const catalogProduct = this.storage.findProduct(p.name)
+
+      if (!catalogProduct)
+        throw new NotFoundException(`Could not find product ${p.name}`)
+
+      return p
+    })
+
     return {
       id,
       status: initialStatus,
       ...body,
+      products,
     }
   }
 
